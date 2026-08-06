@@ -13,15 +13,22 @@ public class Ex1_if {
        // 조건식이 참일 떄 실행되는 영역
        //}
 
-        int n =50;
-        String str ="안녕하세요"; //String ""안에 (문자열)넣을수 있는 자료형임
+        int n = 49; // 변수 n에 49를 저장
 
-        if(n != 50 ){
-            str = "n은 50입니다";
+        String str = "안녕하세요"; // String 자료형, 문자열을 저장할 수 있음. 현재 "안녕하세요"로 초기화.
+        String str = ""; // 위에 이미 선언되어 있기 때문에 중복 선언 주의(오류 발생). 빈 문자열로 str 초기화.
 
+        // if문: n이 50과 같으면 아래 코드 실행
+        if(n == 50){
+            str = "n은 50입니다"; // n이 50이면 str에 해당 문자열 저장
         }
 
-        System.out.println(str);
+        // if문: n이 50이 아니면 아래 코드 실행
+        if(n != 50 ){
+            str = "n은 50이 아닙니다"; // n이 50이 아니면 str에 해당 문자열 저장
+        }
+
+        System.out.println(str); // str 변수의 값을 출력
 
 
     }//main
