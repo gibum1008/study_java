@@ -18,7 +18,38 @@ public class Ex1_work {
 
         }
         System.out.println(str);
+        //1번 문제
+        age =20;
+        String str = "";
+                
+        if(age >= 20){
+            str = "성인입니다";
+        }
+        System.out.println(str);
 
+        //2번 문제
+        int score = 70;
+        String mo ="";
+
+        if(score >=60){
+            mo = "합격";
+        }
+
+        //3번 문제
+        int momey =12000;
+        String k ="";
+
+        if(momey >= 10000){
+            k ="구매가능";
+        }
+        //6번 문제
+        age = 22;
+        String kk ="";
+
+        if(age>=20){
+            kk="성인";
+        }else(kk = "미성년자");
+        
 
 
     }//main
